@@ -53,27 +53,6 @@ A modern web browser with JavaScript enabled. No Node.js or build process requir
 
 4. Allow location access when prompted for accurate local weather.
 
-## Deployment
-
-This is a static site with no server-side dependencies. Deploy to any static hosting provider.
-
-### Netlify
-
-1. Push your code to a Git repository (GitHub, GitLab, or Bitbucket).
-
-2. Connect the repository to Netlify:
-   - Log in to [Netlify](https://netlify.com)
-   - Click "Add new site" → "Import an existing project"
-   - Select your repository
-   - Build settings can remain empty (no build command needed)
-   - Publish directory: `/` (root)
-
-3. Deploy. Netlify will automatically redeploy on every push to your main branch.
-
-### Other Platforms
-
-Works with GitHub Pages, Vercel, Cloudflare Pages, or any static file host. No environment variables or build configuration required.
-
 ## Architecture
 
 ```
